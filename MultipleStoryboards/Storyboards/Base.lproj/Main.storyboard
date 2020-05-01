@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mah-f3-qF0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="HomeVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgW-Jy-xSo">
+                                <rect key="frame" x="177" y="804" width="190" height="30"/>
+                                <state key="normal" title="Want more? sign up for free"/>
+                                <connections>
+                                    <segue destination="0CC-Dv-wN6" kind="show" id="MV2-Le-cEE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnU-AP-liG">
+                                <rect key="frame" x="115" y="405" width="184" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="e4J-ER-Nwl"/>
+                                    <constraint firstAttribute="height" constant="86" id="haN-fE-dd2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eD3-om-PRT">
+                                <rect key="frame" x="127" y="636" width="160" height="30"/>
+                                <state key="normal" title="Continue Free Learning"/>
+                                <connections>
+                                    <segue destination="ZGc-4X-KF8" kind="show" id="ZCM-pu-if8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUW-Hv-6Gj">
+                                <rect key="frame" x="188" y="128" width="38" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Y6D-YO-n88"/>
+                                    <constraint firstAttribute="width" constant="38" id="gBv-ll-jRH"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="yhQ-7R-kVQ" kind="show" id="wZb-7O-m0e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CnU-AP-liG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FAL-5p-dE8"/>
+                            <constraint firstItem="hUW-Hv-6Gj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="G1J-bB-TVO"/>
+                            <constraint firstItem="hUW-Hv-6Gj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OVa-vB-YAw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XgW-Jy-xSo" secondAttribute="trailing" constant="47" id="TYT-uM-3yh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XgW-Jy-xSo" secondAttribute="bottom" constant="28" id="iiW-c9-auA"/>
+                            <constraint firstItem="CnU-AP-liG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nIy-qn-j62"/>
+                            <constraint firstItem="eD3-om-PRT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pR2-hk-Ac8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="25A-fL-S87"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="-214.28571428571428"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="GPP-ad-p42">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Authentication" referencedIdentifier="LoginVC" id="yhQ-7R-kVQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="O1v-ua-68n"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wlt-B5-h5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="-415"/>
+        </scene>
+        <!--LessonsCatalogueVC-->
+        <scene sceneID="PWw-yv-glM">
+            <objects>
+                <viewController id="ApB-gv-aVv" userLabel="LessonsCatalogueVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dpa-xl-KAD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7QT-7v-fMc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Catalogue" id="MaQ-ho-8JM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FPX-3v-b5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3862" y="-33"/>
+        </scene>
+        <!--FinishedLessonsVC-->
+        <scene sceneID="FSl-bW-9t1">
+            <objects>
+                <viewController title="My Finished Lessons" id="8A6-H0-uT4" userLabel="FinishedLessonsVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Oqn-iq-FQP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="8hV-bn-qeW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Finished Lessons" id="0Ab-d6-3Ag"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GNX-TS-xLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3862" y="-756"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="MeM-Y4-IUu">
+            <objects>
+                <tabBarController storyboardIdentifier="LibraryVC" title="Library" id="r39-CO-r6p" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2zY-5N-3Vi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8A6-H0-uT4" kind="relationship" relationship="viewControllers" id="h2L-tf-dH0"/>
+                        <segue destination="ApB-gv-aVv" kind="relationship" relationship="viewControllers" id="lz6-WR-2aW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mTB-Yb-EVf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2423" y="-457"/>
+        </scene>
+        <!--SignupVC-->
+        <scene sceneID="fen-vi-bZk">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="SignupVC" storyboardName="Authentication" referencedIdentifier="SignupVC" id="0CC-Dv-wN6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fSP-JQ-Ala"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WvM-gh-ZEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1573" y="-214"/>
+        </scene>
+        <!--FreeLessonsVC-->
+        <scene sceneID="WZk-LJ-zhK">
+            <objects>
+                <viewController title="Free Lessons" id="ZGc-4X-KF8" userLabel="FreeLessonsVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t0i-98-7Ox">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Lesson 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cN-aR-L8b">
+                                <rect key="frame" x="155" y="150" width="105" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Lesson 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFw-Ar-TeV">
+                                <rect key="frame" x="157" y="260" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Lesson 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsy-CV-i8o">
+                                <rect key="frame" x="155" y="208" width="107" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="i8e-gk-q2g"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jaq-aP-9Uq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yz2-bE-Iqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1368" y="498"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pt7-1h-Ja3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mah-f3-qF0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B8o-JF-SS8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VLb-wa-Nkw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5hg-1e-JFf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="-214.28571428571428"/>
+        </scene>
+    </scenes>
+</document>
