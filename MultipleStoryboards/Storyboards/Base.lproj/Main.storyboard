@@ -25,7 +25,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnU-AP-liG">
                                 <rect key="frame" x="115" y="405" width="184" height="86"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="184" id="e4J-ER-Nwl"/>
                                     <constraint firstAttribute="height" constant="86" id="haN-fE-dd2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
@@ -43,7 +42,6 @@
                                 <rect key="frame" x="188" y="128" width="38" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Y6D-YO-n88"/>
-                                    <constraint firstAttribute="width" constant="38" id="gBv-ll-jRH"/>
                                 </constraints>
                                 <state key="normal" title="Login"/>
                                 <connections>

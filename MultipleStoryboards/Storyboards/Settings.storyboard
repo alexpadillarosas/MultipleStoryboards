@@ -10,7 +10,7 @@
         <!--SettingsVC-->
         <scene sceneID="scS-z3-T23">
             <objects>
-                <viewController id="j3I-Oa-mMc" userLabel="SettingsVC" sceneMemberID="viewController">
+                <viewController title="Settings" id="j3I-Oa-mMc" userLabel="SettingsVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ba9-yA-uZg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
